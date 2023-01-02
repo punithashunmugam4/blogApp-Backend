@@ -15,7 +15,7 @@ mongoose
     "mongodb+srv://shunmugam:4yVPcWevT2ihxVMb@cluster0.mgwnvnw.mongodb.net/blog?retryWrites=true&w=majority"
   )
   .then(() =>
-    app.listen("https://ps-blogappserver.onrender.com", () => {
+    app.listen(5000, () => {
       console.log("server listening to port 5000");
     })
   )
